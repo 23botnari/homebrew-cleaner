@@ -1,6 +1,6 @@
 cask "cleaner-macos" do
   version "1.1"
-  sha256 "3680dc7a5ba742dadd711cc3a483e9203d6b7517e2a235b8a34a98388c804a46"
+  sha256 "d2db39c4ca3b826c0f08fd64cd66f52e80bbfb7db2b1cd8de187fddf621fd7ce"
 
   url "https://github.com/23botnari/cleaner/releases/download/v#{version}/CleanerMacOS.dmg"
   name "Cleaner MacOS"
