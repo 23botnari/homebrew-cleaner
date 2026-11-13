@@ -1,6 +1,6 @@
 cask "cleaner" do
   version "1.1"
-  sha256 "1a2817dda1f59387c1c33b27f2b765b5f5eb04f7367097a3e2fa4e5a71e81951"
+  sha256 "819e6c4b44128fb86e254c217e19c472323def89a02a4c752fa06614105387e4"
 
   url "https://github.com/23botnari/cleaner/releases/download/v#{version}/Cleaner.dmg"
   name "Cleaner"
@@ -18,9 +18,9 @@ cask "cleaner" do
   app "Cleaner.app"
 
   zap trash: [
-    "~/Library/Caches/io.webitfactory.Cleaner",
-    "~/Library/HTTPStorages/io.webitfactory.Cleaner",
-    "~/Library/Preferences/io.webitfactory.Cleaner.plist",
-    "~/Library/Saved Application State/io.webitfactory.Cleaner.savedState",
+    "~/Library/Caches/io.botnari.Cleaner",
+    "~/Library/HTTPStorages/io.botnari.Cleaner",
+    "~/Library/Preferences/io.botnari.Cleaner.plist",
+    "~/Library/Saved Application State/io.botnari.Cleaner.savedState",
   ]
 end
