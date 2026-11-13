@@ -1,6 +1,6 @@
 cask "cleaner" do
   version "1.1"
-  sha256 "bef70406ff48a5b8d3d7b7ed45247318cd930683e8f1810570fa467ad5f22e78"
+  sha256 "1a2817dda1f59387c1c33b27f2b765b5f5eb04f7367097a3e2fa4e5a71e81951"
 
   url "https://github.com/23botnari/cleaner/releases/download/v#{version}/Cleaner.dmg"
   name "Cleaner"
