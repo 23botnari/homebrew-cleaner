@@ -1,7 +1,9 @@
 # Homebrew tap for Cleaner MacOS
 
 ```bash
-brew install --cask 23botnari/cleaner/cleaner-macos
+brew tap 23botnari/cleaner
+brew trust 23botnari/cleaner   # Homebrew 7+ only
+brew install --cask cleaner-macos
 ```
 
 The app is not notarized yet. If macOS refuses to open it, right-click it in Applications and choose **Open**.
